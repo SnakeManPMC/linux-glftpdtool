@@ -1,0 +1,15 @@
+*.[oa]
+*~
+*.zip
+*.tgz
+*.gz
+*.sh
+*.txt
+*.dat
+gltool
+log
+logconvert
+log_year_create
+database_year
+database-storage/
+temp-*

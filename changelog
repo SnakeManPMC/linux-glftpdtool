@@ -1,0 +1,28 @@
+01-01-2003 snakeman
+fixed the (unsig long-unsign long) == terabytes bug in yeartop. 
+fixed the too much bytes in weekscores.dat and also that we dont
+show 0 byte stats on week scores. some other fixes that I cannot
+remember right now... yawn!
+
+11-26-2002 snakeman
+v0.2b
+added some MS.mdn_total=0; for month and week zeroing before use,
+the weektop scores are like 3 times too high :)
+
+11-16-2002 snakeman
+v0.2b
+added total weektop and monthtop results on one display.
+
+
+11-09-2002 snakeman
+added number of users to list in alup, aldn, wkup, wkdn, mup, mdn, 
+yearup and yeardn.
+added footer with easy to change version / date.
+
+
+07-20-2002 snakeman
+added weektop announce file writing for pmc-announce.txt, only
+to the current dir.
+added config file numbers for the bulletin make numbers ;)
+
+
