@@ -41,16 +41,16 @@ int main()
 
 	/* yeartop USER UL */
 	bzero(HS.hyearup_user, sizeof(HS.hyearup_user));
-	sprintf(HS.hyearup_user, "%s", "redzombie");
-	HS.hyearup_user_bytes = 1079917737;
+	sprintf(HS.hyearup_user, "%s", "temp");
+	HS.hyearup_user_bytes = 0;
 
 	/* yeartop dn total */
 	HS.site_yeartop_dn = 2709108433;
 
 	/* yeartop USER DN */
 	bzero(HS.hyeardn_user, sizeof(HS.hyearup_user));
-	sprintf(HS.hyeardn_user, "%s", "tulsa");
-	HS.hyeardn_user_bytes = 433538723;
+	sprintf(HS.hyeardn_user, "%s", "temp");
+	HS.hyeardn_user_bytes = 0;
 
 	fwrite(&HS, sizeof(Scores), 1, nhighscores);
 	fclose(nhighscores);

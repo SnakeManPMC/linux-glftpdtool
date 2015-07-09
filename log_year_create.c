@@ -29,10 +29,10 @@ int main()
 
 	// clear user name
 	bzero(YS.yearup_user, sizeof(YS.yearup_user));
-	strcpy(YS.yearup_user, "redzombie");
+	strcpy(YS.yearup_user, "unknown");
 
 	// yearup_user_bytes
-	YS.yearup_user_bytes = 1079917737984;
+	YS.yearup_user_bytes = 0;
 
 	// yearup_group
 	bzero(YS.yearup_group, sizeof(YS.yearup_group));
@@ -43,10 +43,10 @@ int main()
 
 	// yeardn_user
 	bzero(YS.yeardn_user, sizeof(YS.yeardn_user));
-	strcpy(YS.yeardn_user, "tulsa");
+	strcpy(YS.yeardn_user, "unknown");
 
 	// yeardn_user_bytes
-	YS.yeardn_user_bytes = 433538723840;
+	YS.yeardn_user_bytes = 0;
 
 	// yeardn_group
 	bzero(YS.yeardn_group, sizeof(YS.yeardn_group));
@@ -56,10 +56,10 @@ int main()
 	YS.yeardn_group_bytes = 0;
 
 	// yearup_total bytes
-	YS.yearup_total = 2744006847488;
+	YS.yearup_total = 0;
 
 	// yeardn_total bytes
-	YS.yeardn_total = 2709108433920;
+	YS.yeardn_total = 0;
 
 	fwrite(&YS, sizeof(YearScores), 1, yearscores);
 
@@ -152,10 +152,10 @@ int main()
 
 	// clear user name
 	bzero(YS.yearup_user, sizeof(YS.yearup_user));
-	strcpy(YS.yearup_user, "tulsa");
+	strcpy(YS.yearup_user, "unknown");
 
 	// yearup_user_bytes
-	YS.yearup_user_bytes = 297662653440;
+	YS.yearup_user_bytes = 0;
 
 	// yearup_group
 	bzero(YS.yearup_group, sizeof(YS.yearup_group));
@@ -166,10 +166,10 @@ int main()
 
 	// yeardn_user
 	bzero(YS.yeardn_user, sizeof(YS.yeardn_user));
-	strcpy(YS.yeardn_user, "snakeman");
+	strcpy(YS.yeardn_user, "unknown");
 
 	// yeardn_user_bytes
-	YS.yeardn_user_bytes = 247762547712;
+	YS.yeardn_user_bytes = 0;
 
 	// yeardn_group
 	bzero(YS.yeardn_group, sizeof(YS.yeardn_group));
@@ -179,10 +179,10 @@ int main()
 	YS.yeardn_group_bytes = 0;
 
 	// yearup_total bytes
-	YS.yearup_total = 699317858304;
+	YS.yearup_total = 0;
 
 	// yeardn_total bytes
-	YS.yeardn_total = 603613570048;
+	YS.yeardn_total = 0;
 
 	fwrite(&YS, sizeof(YearScores), 1, yearscores);
 
@@ -398,10 +398,10 @@ int main()
 
 	// clear user name
 	bzero(YS.yearup_user, sizeof(YS.yearup_user));
-	strcpy(YS.yearup_user, "snakeman");
+	strcpy(YS.yearup_user, "unknown");
 
 	// yearup_user_bytes
-	YS.yearup_user_bytes = 672505177088;
+	YS.yearup_user_bytes = 0;
 
 	// yearup_group
 	bzero(YS.yearup_group, sizeof(YS.yearup_group));
@@ -412,10 +412,10 @@ int main()
 
 	// yeardn_user
 	bzero(YS.yeardn_user, sizeof(YS.yeardn_user));
-	strcpy(YS.yeardn_user, "snakeman");
+	strcpy(YS.yeardn_user, "unknown");
 
 	// yeardn_user_bytes
-	YS.yeardn_user_bytes = 352172175360;
+	YS.yeardn_user_bytes = 0;
 
 	// yeardn_group
 	bzero(YS.yeardn_group, sizeof(YS.yeardn_group));
@@ -425,10 +425,10 @@ int main()
 	YS.yeardn_group_bytes = 0;
 
 	// yearup_total bytes
-	YS.yearup_total = 1576945999872;
+	YS.yearup_total = 0;
 
 	// yeardn_total bytes
-	YS.yeardn_total = 726558661632;
+	YS.yeardn_total = 0;
 
 	fwrite(&YS, sizeof(YearScores), 1, yearscores);
 
